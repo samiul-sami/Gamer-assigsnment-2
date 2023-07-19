@@ -252,6 +252,7 @@ padding: 0 50px 0;
 .section-play{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 
 }
 .play-text >h3{
@@ -291,6 +292,12 @@ background-clip: text;
 
 
 }
+.daunlod{
+    color: #000000 !important;
+}
+.play-text{
+
+}
 .play-text >p{
     width: 353px;
     color: #534C64;
@@ -325,10 +332,105 @@ line-height: 30px;
 
 }
 
+
+.lest-sec{
+    padding: 180px;
+    background:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); ;
+}
+
+
+
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+.action1{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action2{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action3{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action4{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action5{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action-end{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+.action6{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+
+}
+.action7{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action8{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.action9{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
 /* footer */
 footer{
     background: #0B0223;
-    margin-top: 130px;
     padding: 100px;
    
     
@@ -421,3 +523,30 @@ line-height: normal;
 
 
 
+@media screen and (max-width:768px) {
+    nav{
+        flex-direction: column;
+    }
+    .nave-con ul{
+        flex-direction: column;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .onlin-flex{
+        flex-direction: column;
+    }
+    .section-play{
+        flex-direction: column;
+
+    }
+    .action{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .action-end {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
